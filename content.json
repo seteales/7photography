@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "about_me": "Sobre mim"
+    },
+    "presentation": {
+        "image":  "https://scontent.cdninstagram.com/v/t51.2885-15/420847009_396840429377551_5927388049909756019_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=Ryl5Prt_y10AX9EQHb3&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI4NzYwMDM0NTkxNTI2MzIxOA%3D%3D.2-ccb7-5&oh=00_AfDGCLg2RukZCUJuc3jmV106cJByf_V8P0TRi6pf-egc-A&oe=65CB4FE6&_nc_sid=10d13bvv",
+        "name": "Allef Vinicius",
+        "short_text": "Especialista em potencializar e posicionamento de imagem pessoal",
+        "text": "Fotógrafo retratista que leva a fotografo ao visagismo, arquétipos e harmonia de cores. Gosto de unificar a essência com a personalidade de cada pessoa, estudar sua linguagem e o desejo que quer passar ao mundo através de sua imagem pessoal. Além disso, sou criador de conteúdo audiovisual e redes sociais, por ter experiência com televisão e rádio (sim, eu já fui locutor, editor de programa de televisão, criador de pautas, roteiros e matérias), faço parte da criação de roteiros e ideias, auxiliando em como se expressar com o corpo e oratória. Minha missão é entregar emoções e sentimentos através das fotos e videos, de forma (ressaltando mais uma vez a palavra) única! Ao me contratar, você não estará apenas recebendo um serviço de fotografia e/ou vídeo, mas sim um parceiro comprometido com você!"
+    },
+    "menu": [
+        {"text": "Baixar E-book",  "url": "#" },
+        {"text": "Descubra o seu arquetipo",  "url": "#" },
+        {"text": "Vídeos",  "url": "#" },
+        {"text": "Servicos",  "url": "#" }
+    ]   
+}
