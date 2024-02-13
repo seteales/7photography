@@ -1,26 +1,26 @@
 ---
-import content from '../../content.json';
+import content from '../../content.json'
 ---
 
 <!-- One -->
 <section id="one">
-	<header class="major">
-		<h2>
-			{content.sections.about_me}
-		</h2>
-	</header>
-	<p class="mb-8">
-		{content.presentation.text}
-	</p>
-	<ul class="actions">
-		{
-			content.menu.map((item) => (
-				<li>
-					<a href={item.url} class="button">
-						{item.text}
-					</a>
-				</li>
-			))
-		}
-	</ul>
+  <header class="major">
+    <h2>
+      {content.sections.about_me}
+    </h2>
+  </header>
+  <p class="mb-8">
+    {content.presentation.text}
+  </p>
+  <ul class="actions">
+    {
+      content.menu.map((item) => (
+        <li>
+          <a href={item.url} class="button">
+            {item.text}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </section>

@@ -1,24 +1,30 @@
 ---
-import avatar from '../assets/avatar.jpg';
 import content from '../../content.json'
 ---
 
 <!-- Header -->
-<header id="header" class="!h-screen !bg-cover !p-10">
-	<div class="h-full flex flex-col items-end justify-between">
-		<h1 class="w-full lg:w-3/4">
-			<strong class="text-3xl sm:text-4xl">{content.presentation.name}</strong><br />{content.presentation.short_text}
-		</h1>
-		<ul class="icons">
-			<li>
-				<a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
-			</li>
-			<li>
-				<a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
-			</li>
-			<li>
-				<a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>
-			</li>
-		</ul>
-	</div>
+<header id="header" class="h-screen bg-cover py-8 pr-8">
+  <div class="h-full flex flex-col items-end justify-between">
+    <h1 class="w-full lg:w-3/4">
+      <strong class="text-3xl sm:text-4xl">{content.presentation.name}</strong>
+      <span>{content.presentation.short_text}</span>
+    </h1>
+    <ul class="icons">
+      <li>
+        <a href="#" class="icon brands fa-twitter"
+          ><span class="label">Twitter</span></a
+        >
+      </li>
+      <li>
+        <a href="#" class="icon brands fa-github"
+          ><span class="label">Github</span></a
+        >
+      </li>
+      <li>
+        <a href="#" class="icon solid fa-envelope"
+          ><span class="label">Email</span></a
+        >
+      </li>
+    </ul>
+  </div>
 </header>
