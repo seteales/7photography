@@ -9,14 +9,18 @@ import content from '../../content.json'
       {content.about_me.title}
     </h2>
   </header>
-  <p class="mb-8">
-    {content.about_me.description}
-  </p>
-  <ul class="actions">
+  <div class="flex flex-col gap-4 mb-8">
+    {
+      content.about_me.description.map((paragraph) => (
+        <p class="mb-0">{paragraph}</p>
+      ))
+    }
+  </div>
+  <ul class="actions flex flex-wrap">
     {
       content.about_me.menu.map((item) => (
         <li>
-          <a href={item.url} class="button">
+          <a href={item.url} class="button truncate">
             {item.text}
           </a>
         </li>

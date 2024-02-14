@@ -1,17 +1,21 @@
 {
   "presentation": {
     "name": "Allef Vinicius",
-    "role": "Especialista em potencializar e posicionamento de imagem pessoal",
-    "bg_image": "/assets/presentation.jpg"
+    "role": "Fotógrafo especialista em imagem pessoal",
+    "cover": "/assets/presentation.jpg"
   },
   "about_me": {
     "title": "Sobre mim",
-    "description": "Fotógrafo retratista que leva a fotografo ao visagismo, arquétipos e harmonia de cores. Gosto de unificar a essência com a personalidade de cada pessoa, estudar sua linguagem e o desejo que quer passar ao mundo através de sua imagem pessoal. Além disso, sou criador de conteúdo audiovisual e redes sociais, por ter experiência com televisão e rádio (sim, eu já fui locutor, editor de programa de televisão, criador de pautas, roteiros e matérias), faço parte da criação de roteiros e ideias, auxiliando em como se expressar com o corpo e oratória. Minha missão é entregar emoções e sentimentos através das fotos e videos, de forma (ressaltando mais uma vez a palavra) única! Ao me contratar, você não estará apenas recebendo um serviço de fotografia e/ou vídeo, mas sim um parceiro comprometido com você!",
+    "description": [
+      "Explorador visual dedicado à arte da fotografia, conduzindo cada captura para um mergulho profundo no visagismo, nos arquétipos e na harmonia das cores. Minha paixão reside em costurar a essência individual de cada pessoa com sua personalidade única, decifrando a linguagem visual que desejam transmitir ao mundo.",
+      "Além do meu olhar afiado como retratista, sou um alquimista de conteúdo audiovisual e estrategista nas redes sociais. Minha jornada inclui experiência nos bastidores da televisão e rádio, onde desempenhei papéis como locutor, editor de programas, e mente criativa por trás de pautas, roteiros e matérias.",
+      "Ao colaborar comigo, você não apenas contrata um serviço de fotografia e vídeo, mas sim um parceiro dedicado. Minha missão transcende a mera captura de imagens; busco imortalizar emoções e sentimentos de maneira verdadeiramente única. Deixe-me ser o catalisador que transforma sua visão em uma narrativa visual cativante, onde cada foto e vídeo conta a história singular que é só sua. Estou aqui para tornar sua jornada visual memorável e autêntica, fazendo de cada clipe e captura uma obra-prima que ecoa a singularidade de quem você é."
+    ],
     "menu": [
       { "text": "Baixar E-book", "url": "#" },
       { "text": "Descubra o seu arquetipo", "url": "#" },
       { "text": "Vídeos", "url": "#" },
-      { "text": "Servicos", "url": "#" }
+      { "text": "Serviços", "url": "#" }
     ]
   },
   "portfolio": {
@@ -26,6 +30,11 @@
   },
   "contact": {
     "title": "Contato",
-    "description": "Entre em contato, irei retornar o mais breve possível"
+    "description": "Transforme suas histórias em imagens memoráveis. Entre em contato pelo formulário abaixo:"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/sete.ph",
+    "whatsapp": "https://api.whatsapp.com/send?phone=5544998681561",
+    "email": "mailto:alleff_vini@hotmail.com"
   }
 }
