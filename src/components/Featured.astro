@@ -6,15 +6,15 @@ import content from '../../content.json'
 <section id="one">
   <header class="major">
     <h2>
-      {content.sections.about_me}
+      {content.about_me.title}
     </h2>
   </header>
   <p class="mb-8">
-    {content.presentation.text}
+    {content.about_me.description}
   </p>
   <ul class="actions">
     {
-      content.menu.map((item) => (
+      content.about_me.menu.map((item) => (
         <li>
           <a href={item.url} class="button">
             {item.text}
